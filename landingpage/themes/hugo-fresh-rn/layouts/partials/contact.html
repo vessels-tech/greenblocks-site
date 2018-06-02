@@ -14,21 +14,27 @@
 
     <div class="columns mt-80">
       <div class="column is-6 is-offset-3">
-        <form>
+        <!-- <form action="https://formspree.io/your@email.com" method="POST">
+          <input type="text" name="name">
+          <input type="email" name="_replyto">
+          <input type="submit" value="Send">
+        </form> -->
+        <form action="https://formspree.io/lewis@vesselstech.com" method="POST">
           <div class="columns is-multiline">
             <div class="column is-6">
-              <input class="input is-medium" type="text" placeholder="Enter your Name">
+              <input class="input is-medium" type="text" name="name" placeholder="Enter your Name">
             </div>
             <div class="column is-6">
-              <input class="input is-medium" type="email" placeholder="Enter your Email">
+              <input class="input is-medium" type="email" name="_replyto" placeholder="Enter your Email">
             </div>
             <div class="column is-12">
               <textarea class="textarea" rows="10" placeholder="Write someting ..."></textarea>
             </div>
             <div class="form-footer has-text-centered mt-10">
-              <button class="button cta is-large primary-btn raised is-clear">
+              <input class="button cta is-large primary-btn raised is-clear" type="submit" value="Send">
+              <!-- <button class="button cta is-large primary-btn raised is-clear">
                 Send Message
-              </button>
+              </button> -->
             </div>
           </div>
         </form>

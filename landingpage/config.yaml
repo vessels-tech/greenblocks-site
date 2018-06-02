@@ -18,22 +18,22 @@ params:
     # - logos/clients/infinite.svg
     # - logos/clients/gutwork.svg
   navbar:
-    buttonText: Sign up
+    buttonText: Join the List
     logo:
       # src: logos/fresh.svg
       src: logos/greenblocks_logo_1.png
       alt: Main navbar logo
-    links:
-    - text: Features
-      url: /
-    - text: Pricing
-      url: /
-    - text: Dropdown
-      dropdown: true
-      links:
-      - Dropdown item 1
-      - Dropdown item 2
-      - Dropdown item 3
+    # links:
+    # - text: Features
+    #   url: /
+    # - text: Pricing
+    #   url: /
+    # - text: Dropdown
+    #   dropdown: true
+    #   links:
+    #   - Dropdown item 1
+    #   - Dropdown item 2
+    #   - Dropdown item 3
   features:
     tagline: Cities are broken. Urban Farming can help.
     subTagline: GreenBlocks promotes urban farming by providing access to capital, secure land rights for landowners, and green investments for investors.
