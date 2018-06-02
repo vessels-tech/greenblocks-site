@@ -4,7 +4,7 @@
 {{- $buttonText := $hero.buttonText }}
 {{- $heroImageUrl := printf "img/%s" $hero.image | absURL -}}
 <section class="hero is-fullheight is-default is-bold is-slanted">
-  <!-- {{ partial "navbar.html" . }} -->
+  {{ partial "navbar.html" . }}
 
   <div class="hero-body">
     <div class="container has-text-centered">

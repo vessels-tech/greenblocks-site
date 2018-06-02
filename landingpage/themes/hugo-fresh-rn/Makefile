@@ -7,5 +7,8 @@ GULP     := $(NODE_BIN)/gulp
 setup:
 	yarn
 
-dev:
+build:
 	$(GULP)
+
+dev:
+	$(GULP) dev

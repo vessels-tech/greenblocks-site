@@ -12,7 +12,8 @@
         <article class="media icon-box">
           <figure class="media-left">
             <p class="image">
-              <img src="{{ printf "img/illustrations/icons/%s.svg" .icon | absURL }}">
+              <img class="profile" src="{{ printf "img/illustrations/faces/%s" .icon }}">
+              <!-- <img src="img/illustrations/icons/doc-sync.svg"> -->
             </p>
           </figure>
           <div class="media-content mt-50">
@@ -21,6 +22,7 @@
                 <span class="icon-box-title">
                   {{ .title }}
                 </span>
+                <i>{{.location}}</i>
                 <br><br>
                 <span class="icon-box-text">
                   {{ .description }}
