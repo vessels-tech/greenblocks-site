@@ -3,7 +3,7 @@ baseURL: https://greenblocks.network
 # baseURL: http://localhost:1313
 languageCode: en-us
 title: GreenBlocks
-theme: hugo-fresh
+theme: hugo-fresh-rn
 
 params:
   hero:
