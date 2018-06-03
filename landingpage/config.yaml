@@ -65,8 +65,8 @@ params:
     points:
     - title: Billy Garrison
       location: Canada
-      description: Blockchain Business Development
-      icon: 1.png
+      description: Blockchain Development
+      icon: billy.jpg
     - title: Philipp Beer
       location: Germany
       description: Marketing + Business Development
